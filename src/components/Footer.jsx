@@ -23,7 +23,7 @@ const Footer = () => {
                         <div className="col-xl-9 col-lg-8">
                             <div className="footer-copy-right">
                                 <p>
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
   </p>
                             </div>
                         </div>
@@ -43,6 +43,10 @@ const Footer = () => {
         </div>
         
     </footer>
+
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i className="fas fa-level-up-alt"></i></a>
+    </div>
     </>
   )
 }
